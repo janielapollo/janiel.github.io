@@ -18,9 +18,9 @@ body{
   border-left: 1px solid #00000030;
   max-width: 250px;
 }
-.work-projects, .footer {
+#work, .footer {
   background-color: #1E201E;
 }
-.work-projects p {
-  color: ECDFCC;
+#work {
+  color: #ECDFCC;
 }
