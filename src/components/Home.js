@@ -9,7 +9,7 @@ export default function Home() {
     return (
         <Container className='container-fluid' style={{ height: '100vh' }}>
             <Row className='align-items-center justify-content-center h-100'>
-            <Col xs={12} md={6} className='d-flex justify-content-center mb-4 mb-md-0'>
+            <Col xs={12} md={6} className='d-flex justify-content-center mt-2 mb-4 mb-md-0'>
                 <Image src={img1}  rounded fluid style={{ maxWidth: '100%', height: 'auto', objectFit: 'cover' }} />
             </Col>
              <Col xs={12} md={6} className='d-flex flex-column justify-content-center text-center text-md-start'>
