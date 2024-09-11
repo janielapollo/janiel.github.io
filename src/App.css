@@ -24,3 +24,13 @@ body{
 #work {
   color: #ECDFCC;
 }
+.custom-work {
+  border-bottom: 0.5px solid #ecdfcc56;
+}
+
+.custom-list-group-item{
+  color: inherit;
+  background-color : inherit;
+  border: none;
+  padding: 4px 0;
+}
