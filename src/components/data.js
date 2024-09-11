@@ -47,25 +47,29 @@ export const workproject = [
 ];
 
 export const about = [{
+    id : 0,
     informations : [ 'I am Janiel Apollo S. Bodiongan, a passionate web developer with nearly five years of experience in low-code development, particularly OutSystems. My expertise spans both frontend and backend solutions, enabling me to build and scale applications effectively. I have contributed to various industries such as banking, telecom, and healthcare, consistently delivering high-quality, enterprise-grade solutions.', 'As a developer working in an agile environment, I thrive and quickly expand my knowledge through both self-study and professional work. I have a strong background in OOP and JavaScript, which has helped me learn technologies such as ReactJS. Additionally, I have supported enterprise applications, gaining experience in database management systems like MySQL and PostgreSQL by generating complex reports to meet business needs, while also maintaining and optimizing the environment. Plus, I have a game development internship experience','I am confident that my extensive experience in low-code development will enable me to quickly adapt to any tool or technology, ensuring my continued growth and contribution to the success of future projects.'],
-    skills: [{
-        development : ['HTML', 'CSS', 'JavaScript', 'JQuery', 'ReactJS', 'RESTful APIs'],
+    skills: {
+        develop : ['HTML', 'CSS', 'JavaScript', 'JQuery', 'ReactJS', 'RESTful APIs'],
         database : ['MySQL', 'PostgreSQL', 'SQL Server'],
         devtools : [ 'OutSystems', 'Visual Studio Code', 'Git', 'DBeaver', 'Postman'],
-        workflow : [ 'Agile/Scrum', 'Trello', 'JIRA', 'Sketch', 'Figma', 'ServiceNow']
-    }],
+        workflow : [ 'Agile/Scrum', 'Trello', 'JIRA', 'SketchUp', 'Figma', 'ServiceNow']
+    },
     workhistory : [
         {
+            id : 0,
             company : 'DB Results Philippines – OutSystems Developer (Mid)',
             responsibilities : 'Worked on building responsive web, REST APIs, implemented Microsoft Single Sign-On, and integrated barcode scanning for applications.',
             project :'Watson Vaccine Activity Scheduling System, Emperor Gold Club [HK].',
         },
         {
+            id : 1,
             company : 'Indra Sistemas S.A. – Consultant (Mid) | Level 3 Technical Support',
             responsibilities : 'Supported mobile and web apps for a telecom company, ensuring operational continuity and providing technical support.',
             project :'oWFM Enterprise App [PH].',
         },
         {
+            id : 2,
             company : 'Via Appia Philippines Inc. – Technical Consultant (Mid) & (Junior)',
             responsibilities : 'Developed enterprise web applications using OutSystems and conducted code reviews to ensure quality.',
             project :'The Portal Digital Enrollment, The Portal Self-Service Admin, The Portal Digital Account Opening.',

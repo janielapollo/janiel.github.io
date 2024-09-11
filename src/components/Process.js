@@ -19,7 +19,7 @@ function ProcessItem ({items}){
         <>
         {items.map(item => (
         <Col key={item.id} xs={12} md={6} lg={3} className='mb-4 d-flex'>
-            <Container className='process-card p-3 text-wrap flex-column'>
+            <Container fluid className='process-card p-3 text-wrap flex-column'>
                 <p className='fs-1 fw-bold'>
                     {'0'+ (item.id + 1)}
                 </p>

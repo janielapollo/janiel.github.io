@@ -10,7 +10,7 @@ body{
   padding: 0;
   background-color: #D9D9D9 !important;
 }
-.process {
+.process, #about {
   background-color: #E6E6E6;
 }
 .process-card {
@@ -18,7 +18,7 @@ body{
   border-left: 1px solid #00000030;
   max-width: 250px;
 }
-#work, .footer {
+#work, #footer {
   background-color: #1E201E;
 }
 #work {
@@ -33,4 +33,21 @@ body{
   background-color : inherit;
   border: none;
   padding: 4px 0;
+}
+#footer{
+  color: #E6E6E6;
+}
+.back a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+.back a:hover {
+  text-decoration: underline;
+}
+
+#footer img {
+  width: 20px; /* Adjust size as needed */
+  height: 20px;
 }
