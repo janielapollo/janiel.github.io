@@ -16,8 +16,8 @@ export default function Home() {
              <Row>
              <Container className='text-start'>
              <p className='fs-1 fw-bolder'>Web Developer</p>
-             <p className='lh-base'>Hi there! I’m Janiel Apollo Bodiongan, a software developer with nearly five years experience in using a low-code 
-             development platforms like OutSystems. I specializing in building both front and back end solutions for robust web and mobile applications. Additionally, I have expanded my knowledge thru professional work or self-study in technologies like JavaScript, PostgreSQL, ReactJS, SASS and Google Cloud.</p>
+             <p className='lh-base'>Hi there! I’m Janiel Apollo Bodiongan, a web developer with nearly five years experience in using a low-code 
+             development platforms like OutSystems. I specializing in building both front and back end solutions for robust web and mobile applications. Additionally, I have expanded my knowledge thru professional work or self-study in technologies like JavaScript, PostgreSQL, ReactJS, SASS and Single UI frameworks.</p>
              </Container>  
              </Row>
                 
